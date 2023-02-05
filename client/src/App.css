@@ -1,0 +1,14 @@
+.linear-gradient-main-bg {
+  /* background: linear-gradient(112.8deg, #96B3FF 0.81%, #AEB2F4 36.28%, rgba(201, 133, 255, 0.49) 103.32%); */
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+
+.list-item:hover {
+  cursor: pointer;
+}
+
+.list-items:hover:after{
+  
+}
