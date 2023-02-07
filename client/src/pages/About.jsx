@@ -2,9 +2,9 @@ import './About.css'
 
 const About = () => {
     return (
-        <div className="h-screen flex m-16 justify-center items-center sm:items-start sm:justify-start flex-col space-y-10">
+        <div className="h-screen flex items-start justify-start flex-col space-y-10">
             <div className="title font-poppins">About</div>
-            <div className='about-section flex p-[2rem] space-x-10 ml-20'>
+            <div className='about-section flex p-[2rem] lg:space-x-10 lg:ml-20'>
                 <img src="/photo_blank.png" className='photo' alt="" />
                 <div className='text-xl flex space-y-3 flex-col font-poppins  font-light'>
                     <p className='text-slate-500'>About Me</p>

@@ -2,7 +2,6 @@
     font-size: 2rem;
     font-weight: 700;
     color: #000;
-    margin-bottom: 1rem;
     margin-left: 6rem;
     position: relative;
 }
@@ -24,5 +23,17 @@
     border-radius: 1rem;
 }
 
-.about-section{
+
+@media screen and (max-width: 1024px) {
+    .about-section{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .photo{
+        margin: 0;
+        margin-bottom: 2rem;
+        height: 40%;
+    }
 }
