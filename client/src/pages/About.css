@@ -1,0 +1,28 @@
+.title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 1rem;
+    margin-left: 6rem;
+    position: relative;
+}
+
+.title::after{
+    content: '';
+    position: absolute;
+    height: 0.6rem;
+    width: 20rem;
+    bottom: -0.5rem;
+    left: 0;
+    background: rgba(124, 84, 208, 0.92);
+}
+
+.photo{
+    height: auto;
+    width: auto;
+    max-height: 70%;
+    border-radius: 1rem;
+}
+
+.about-section{
+}

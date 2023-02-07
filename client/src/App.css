@@ -9,6 +9,21 @@
   cursor: pointer;
 }
 
-.list-items:hover:after{
-  
+.list-items:hover:after {}
+
+/* customise the scrollbar */
+
+div::-webkit-scrollbar {
+  width: 0.6em;
+}
+
+div::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
+  outline: none;
+  border: none;
+}
+
+div::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #8A90FB -9%, rgba(201, 133, 255, 0.49) 111.18%, rgba(217, 217, 217, 0) 111.19%);
+  border-radius: 10px;
 }

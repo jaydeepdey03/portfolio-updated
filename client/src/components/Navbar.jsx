@@ -2,9 +2,9 @@ import './Navbar.css'
 
 const Navbar = () => {
     return (
-        <div className="flex justify-between items-center p-6 mx-8 navbar">
-            <p className="name text-3xl text-black tracking-wide">{`<jaydeep/>`}</p>
-            <ul className="hidden sm:flex justify-end space-x-7 font-semibold text-black text-xl">
+        <div className="flex justify-between items-center p-6 mx-8 navbar ">
+            <p className="name2 text-3xl text-gray-700 tracking-wide">{`<jaydeep/>`}</p>
+            <ul className="hidden sm:flex justify-end space-x-7 font-semibold text-gray-600 text-xl">
                 <li className="list-items">Home</li>
                 <li className="list-items">Resume</li>
                 <li className="list-items">Skills</li>

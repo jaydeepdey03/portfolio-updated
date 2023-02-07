@@ -1,12 +1,16 @@
 import './App.css'
-import Home from './pages/Home'
+import Navbar from './components/Navbar'
+import About from './pages/About'
+import Mainbanner from './pages/Mainbanner'
 
 function App() {
 
 
   return (
     <div className='linear-gradient-main-bg'>
-      <Home />
+      <Navbar />
+      <Mainbanner />
+      <About />
     </div>
   )
 }
