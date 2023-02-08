@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <Mainbanner />
       <About />
-      {/* <Project /> */}
+      <Project />
     </div>
   )
 }

@@ -7,8 +7,8 @@ const Mainbanner = () => {
             <div className='flex flex-col space-y-5 text-box '>
                 <div className='flex sm:items-start flex-col items-center'>
                     <p className='font-bold text-gray-700 uppercase text-xl ml-3'>Hello, I am</p>
-                    <div className='flex p-4 pl-0 name1 text-6xl font-bold'>
-                        <p className='name1'>Jaydeep Dey</p>
+                    <div className='flex p-4 pl-0 name1 text-5xl sm:text-6xl font-bold'>
+                        <p className=''>Jaydeep Dey</p>
                     </div>
                 </div>
                 <div className='flex font-semibold text-2xl ml-1'>

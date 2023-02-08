@@ -23,6 +23,9 @@
     border-radius: 1rem;
 }
 
+.about-section{
+    margin-left: 20rem;
+}
 
 @media screen and (max-width: 1024px) {
     .title{
