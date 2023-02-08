@@ -43,4 +43,22 @@
         margin-bottom: 2rem;
         height: 40%;
     }
+
+    .title{
+        font-size: 2rem;
+        font-weight: 700;
+        color: #000;
+        /* margin-left: 6rem; */
+        position: relative;
+    }
+    
+    .title::after{
+        content: '';
+        position: absolute;
+        height: 0.6rem;
+        width: 15rem;
+        bottom: -0.5rem;
+        left: 0;
+        background: rgba(124, 84, 208, 0.92);
+    }
 }
