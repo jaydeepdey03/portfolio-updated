@@ -2,7 +2,7 @@ import './Project.css'
 
 const Project = () => {
     return (
-        <div className='h-screen'>
+        <div className=''>
             <p>Hello</p>
         </div>
     )

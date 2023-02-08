@@ -3,7 +3,7 @@ import Typewriter from 'typewriter-effect'
 
 const Mainbanner = () => {
     return (
-        <div className='flex flex-col space-y-10 sm:flex-row justify-center sm:justify-around mt-3 items-center'>
+        <div className='flex flex-col space-y-10 sm:flex-row sm:justify-around mt-3 items-center'>
             <div className='flex flex-col space-y-5 text-box '>
                 <div className='flex sm:items-start flex-col items-center'>
                     <p className='font-bold text-gray-700 uppercase text-xl ml-3'>Hello, I am</p>
