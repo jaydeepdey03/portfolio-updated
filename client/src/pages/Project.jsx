@@ -13,7 +13,7 @@ const Project = () => {
     return (
         <div className='m-10 font-poppins'>
             <h1 className='text-3xl font-bold text-center mb-10'>Projects</h1>
-            <div className='flex justify-center items-center space-x-3'>
+            <div className='flex justify-center items-center space-x-3 md:w-full w-[30rem]'>
                 <button className='bg-gray-200 rounded-full flex items-center justify-center p-4' onClick={() => swiperRef.current.slidePrev()}>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
@@ -35,7 +35,7 @@ const Project = () => {
                 >
                     {[1, 2, 3, 4, 5, 6].map(() => {
                         return <SwiperSlide>
-                            <div className='sm:ml-10 sm:p-4 w-[18rem] rounded-xl sm:w-80 shadow-lg sm:mt-2 sm:mb-2'>
+                            <div className='sm:ml-10 sm:p-4 w-[18rem] rounded-xl shadow-lg sm:mt-2 sm:mb-2'>
                                 <img src="/blog1.png" className='rounded-xl' alt="" />
                                 <h3 className='text-center font-light mt-3 text-xl'>Project Title</h3>
                                 <p className='m-4 text-justify max-w-lg text-sm text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aliquam similique, praesentium esse explicabo, nostrum asperiores ut beatae tempora repellat a facilis</p>
