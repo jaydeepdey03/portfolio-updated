@@ -8,12 +8,12 @@ function App() {
 
 
   return (
-    <div className='linear-gradient-main-bg'>
+    <>
       <Navbar />
       <Mainbanner />
       <About />
       <Project />
-    </div>
+    </>
   )
 }
 

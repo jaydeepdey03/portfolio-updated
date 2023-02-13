@@ -2,7 +2,7 @@ import './About.css'
 
 const About = () => {
     return (
-        <div className="md:h-screen flex items-start justify-start flex-col lg:space-y-10">
+        <div className="about-section lg:h-screen flex items-start justify-start flex-col lg:space-y-10">
             <div className="title font-poppins">About</div>
             <div className='about-section flex w-full lg:justify-center p-[2rem] lg:space-x-10'>
                 <img src="/photo_blank.png" className='photo' alt="" />

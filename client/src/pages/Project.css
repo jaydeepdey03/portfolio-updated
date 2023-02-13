@@ -1,0 +1,11 @@
+.swiper-pagination-bullet-active {
+    background-color: red !important;
+}
+
+.mySwiper{
+    position: relative;
+}
+.swiper-button-next{
+    position: absolute;
+    left: 0;
+}
