@@ -2,13 +2,5 @@
     background-color: red !important;
 }
 
-.mySwiper{
-    position: relative;
-}
-.swiper-button-next{
-    position: absolute;
-    left: 0;
-}
-
 /* what is parent container class of swiper pagination */
 
