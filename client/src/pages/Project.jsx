@@ -41,7 +41,7 @@ const Project = () => {
                             <div className='max-w-sm rounded-xl shadow-lg p-6 m-3'>
                                 <img src="/blog1.png" className='rounded-xl' alt="" />
                                 <h3 className='text-center font-light mt-3 text-xl'>Project Title</h3>
-                                <p className='text-justify text-sm text-gray-500'>{text.length>20? text.slice(15) + "..." : text}</p>
+                                <p className={`${width<640? 'text-center': 'text-justify'} text-sm text-gray-500 pt-3`}>{width < 768 ?text.slice(0,100) + '...': text.slice(0,250) + '...'}</p>
                             </div>
                         </SwiperSlide>
                     })
