@@ -28,7 +28,9 @@ const Mainbanner = () => {
                     <p className=''>by Passion</p>
                 </div>
             </div>
-            <img src="/bitmoji.png" className='object-cover h-[30rem]' alt="" />
+            <div className=''>
+                <img src="/bitmoji1.png" className='object-cover h-[30rem]' alt="image" />
+            </div>
         </div>
     )
 }

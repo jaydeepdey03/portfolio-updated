@@ -2,6 +2,7 @@ import Navbar from '../components/Navbar'
 import About from './About'
 import Mainbanner from './Mainbanner'
 import Project from './Project'
+import Skill from './Skill'
 
 const Home = () => {
 
@@ -12,6 +13,7 @@ const Home = () => {
                 <Mainbanner />
                 <About />
                 <Project />
+                <Skill />
             </>
 
         </div>

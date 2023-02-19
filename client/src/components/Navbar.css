@@ -14,7 +14,7 @@
     left: 0;
     transform-origin: 0% 50%;
     transform: scale(0, 1);
-    transition: transform 0.3s ease;
+    transition: transform 0.8s ease;
 }
 
 .list-items:hover::after {
@@ -52,4 +52,5 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (max-width: 1024px) {
+    
 }
